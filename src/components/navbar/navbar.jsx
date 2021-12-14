@@ -6,20 +6,17 @@ export default function navbar() {
   return (
     <nav class="navbar">
       <Link class="title" to="/">
-        zack roth
+        Zack Roth
       </Link>
       <div class="links-container">
-        <Link className="link" to="/about-me">
-          about me
-        </Link>
         <Link className="link" to="/projects">
-          projects
+          Projects
         </Link>
         <Link className="link" to="/tutoring">
-          tutoring
+          Tutoring
         </Link>
         <Link className="link" to="/contact-me">
-          contact me
+          Contact Me
         </Link>
       </div>
     </nav>

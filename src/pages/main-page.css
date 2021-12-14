@@ -1,0 +1,33 @@
+.intro {
+  position: relative;
+}
+
+.intro-text-container {
+  position: absolute;
+  top: 500px;
+  left: 100px;
+  color: #006a4f;
+  width: 30%;
+}
+
+.greeting {
+  font-size: 64pt;
+  margin: 0;
+}
+
+.bio {
+  font-size: 24pt;
+}
+
+.intro-image-container {
+  width: 100vw;
+  height: calc(100vh - 64px);
+  overflow: hidden;
+}
+
+#intro-image {
+  height: 100%;
+  width: 120%;
+  object-fit: cover;
+  object-position: 100% 40%;
+}
