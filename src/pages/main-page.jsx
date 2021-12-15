@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
+import AboutMe from "../components/about-me/about-me";
 import introImage from "../images/IMG_1983.jpg";
 
 import "./main-page.css";
@@ -18,12 +19,12 @@ export default function MainPage() {
             <bold>Hi!</bold> I'm Zack.
           </h1>
           <h2 className="bio">
-            I'm a third-year computer science student at Northeastern
+            I'm a third-year Computer Science student at Northeastern
             University. I'm also minoring in Startups and Design.
           </h2>
         </div>
       </div>
-      <div className="about-me"></div>
+      <AboutMe />
       <Footer />
     </div>
   );

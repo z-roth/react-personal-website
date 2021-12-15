@@ -1,0 +1,5 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  color: #fff3d4;
+}
